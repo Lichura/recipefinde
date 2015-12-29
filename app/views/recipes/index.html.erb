@@ -1,0 +1,17 @@
+
+<div class="titulo">
+<h1>Bienvenido al primer buscador de recetas para Betos</h1>
+</div>
+
+<h2>Ha continuación se muestran las recetas que contienen <%= @search_term %></h2>
+<% @recipes.each do |recipe| %>
+<div class="contenedor">
+	<h1><%= recipe["title"]%></h1>
+	<div class="imagen">
+		<%= image_tag(recipe["image_url"]) %>
+	</div>
+	<p>Ranking: <%= recipe["social_rank"]%></p>
+	<p><%= link_to(recipe["f2f_url"])%></p>
+</div>	
+<% end %>
+

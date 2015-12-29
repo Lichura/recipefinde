@@ -1,0 +1,59 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Kanit);
+
+*{
+	font-family: 'Kanit', sans-serif;
+}
+
+body{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: rgb(210, 210, 210)
+}
+.titulo{
+	width: 100%;
+	height: 100px;
+	background-color: orange;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h2{
+	text-align: center;
+}
+.contenedor{
+	background-color: rgb(255,255,255);
+	width: 300px; 
+	height: 370px; 
+	float:left; 
+	margin-left: 3%;
+	margin-bottom: 3%;
+	-webkit-box-shadow: 9px 15px 21px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 15px 21px -14px rgba(0,0,0,0.75);
+	box-shadow: 9px 15px 21px -14px rgba(0,0,0,0.75);
+}
+.contenedor h1{
+	font-size: 80%;
+}
+
+.imagen{
+	width: 100%;
+	height: 250px;
+}
+
+.imagen img{
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor h1{
+	text-align: center;
+}
+
+.contenedor p{
+	text-align: center;
+	margin-bottom: -20px;
+}
